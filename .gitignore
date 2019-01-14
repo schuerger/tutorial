@@ -1,0 +1,15 @@
+# AUDIT TRAIL
+# 20190114 (FM/hs) new / ingnore logs and temporary files
+# --------------------------------------------------------:wq
+# ignore
+*.zip
+*.tmp
+*.log
+log/*.log
+log/*.log[0,9]
+# do not ignore
+
+
+# Mac-specific
+.DS_Store
+
