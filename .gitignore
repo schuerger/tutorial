@@ -10,15 +10,15 @@
 *.zip
 *.tar.gz
 *.rar
-# -------------------------------------------------------- ignore compiled source
-*.class
+# -------------------------------------------------------- ignore compiled source // in GLOBAL settings
+#*.class
 # -------------------------------------------------------- ignore temporary files
 *.tmp
-# -------------------------------------------------------- ignore logs
-*.lst
-*.log
-log/*.log
-log/*.log[0,9]
+# -------------------------------------------------------- ignore logs // in GLOBAL settings
+#*.lst
+#*.log
+#log/*.log
+#log/*.log[0,9]
 # -------------------------------------------------------- ignore persistent data stores
 # -------------------------------------------------------- ignore operating system generated files
 Thumbs.db
