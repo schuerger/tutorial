@@ -1,15 +1,29 @@
 # AUDIT TRAIL
 # 20190114 (FM/hs) new / ingnore logs and temporary files
-# --------------------------------------------------------:wq
-# ignore
+# --------------------------------------------------------
+# NOTE:  trailing comments cause the line to be ignored.
+# -------------------------------------------------------- ignore packages and compressed files
+*.jar
+*.war
+*.nar
+*.ear
 *.zip
+*.tar.gz
+*.rar
+# -------------------------------------------------------- ignore compiled source
+*.class
+# -------------------------------------------------------- ignore temporary files
 *.tmp
+# -------------------------------------------------------- ignore logs
+*.lst
 *.log
 log/*.log
 log/*.log[0,9]
-# do not ignore
+# -------------------------------------------------------- ignore persistent data stores
+# -------------------------------------------------------- ignore operating system generated files
+Thumbs.db
+Desktop.ini
+.DS_Store # Mac-specific
+# -------------------------------------------------------- ignore uploaded assests (images, videos, PDFs, etc)
 
-
-# Mac-specific
-.DS_Store
-
+# -------------------------------------------------------- do NOT ignore (overides on above)
