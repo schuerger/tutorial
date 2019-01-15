@@ -1,29 +1,12 @@
 # AUDIT TRAIL
-# 20190114 (FM/hs) new / ingnore logs and temporary files
+# 20190114 (FM/hs) new - refer to ~/.gitignore_global
 # --------------------------------------------------------
 # NOTE:  trailing comments cause the line to be ignored.
 # -------------------------------------------------------- ignore packages and compressed files
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
 # -------------------------------------------------------- ignore compiled source // in GLOBAL settings
-#*.class
 # -------------------------------------------------------- ignore temporary files
-*.tmp
 # -------------------------------------------------------- ignore logs // in GLOBAL settings
-#*.lst
-#*.log
-#log/*.log
-#log/*.log[0,9]
 # -------------------------------------------------------- ignore persistent data stores
 # -------------------------------------------------------- ignore operating system generated files
-Thumbs.db
-Desktop.ini
-.DS_Store # Mac-specific
 # -------------------------------------------------------- ignore uploaded assests (images, videos, PDFs, etc)
-
 # -------------------------------------------------------- do NOT ignore (overides on above)
