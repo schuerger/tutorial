@@ -2,6 +2,7 @@
 # 20190114 (FM/hs) new - refer to ~/.gitignore_global
 # --------------------------------------------------------
 # NOTE:  trailing comments cause the line to be ignored.
+# -------------------------------------------------------- refer to ~/.gitignore_global
 # -------------------------------------------------------- ignore packages and compressed files
 # -------------------------------------------------------- ignore compiled source // in GLOBAL settings
 # -------------------------------------------------------- ignore temporary files
@@ -9,4 +10,6 @@
 # -------------------------------------------------------- ignore persistent data stores
 # -------------------------------------------------------- ignore operating system generated files
 # -------------------------------------------------------- ignore uploaded assests (images, videos, PDFs, etc)
+# -------------------------------------------------------- project-specific things to ignore
+*.txt
 # -------------------------------------------------------- do NOT ignore (overides on above)
