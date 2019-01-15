@@ -11,5 +11,5 @@
 # -------------------------------------------------------- ignore operating system generated files
 # -------------------------------------------------------- ignore uploaded assests (images, videos, PDFs, etc)
 # -------------------------------------------------------- project-specific things to ignore
-*.txt
+#*.txt # this was just an example
 # -------------------------------------------------------- do NOT ignore (overides on above)
